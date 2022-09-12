@@ -3,7 +3,7 @@
 ## 1. What are mk modules?
 
 [mk modules](https://github.com/elauksap/mk) bundle a set of scientific libraries compiled under the same toolchain. Once installed, they provide the command module, that has several subcommands:
-- `module load`: loads the requested module. This creates a set of environment variables storing relevant paths for that library (e.g. `mkEigenPrefix`, `mkEigenInc`, ...). Use  `export | grep "mk "`  to obtain a list
+- `module load`: loads the requested module. This creates a set of environment variables storing relevant paths for that library (e.g. `mkEigenPrefix`, `mkEigenInc`, ...). Use  `export | grep mk`  to obtain a list
 - `module list`: shows a list of currently loaded modules
 - `module avail`: shows a list of all available modules (loaded or not)
 - `module --help`: shows a list of all the commands
